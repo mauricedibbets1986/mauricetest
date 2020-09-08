@@ -1,0 +1,367 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.1em;
+    color: #9B9B9B;
+    padding: 0;
+}
+
+#login-background {
+    background-image: url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh !important;
+    width: 100vw !important;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: none;
+    opacity: 0.75;
+}
+
+.form-signin {
+    margin-top: 200px !important;
+    margin-top: 30vh !important;
+}
+
+.btn-block {
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #9D3FF3 !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+i {
+    font-size: 2em;
+}
+
+.fa-folder, .fa-folder-open {
+    min-width: 37.61px;
+}
+
+.folder-container:hover .fa-folder, .envelope-container:hover .fa-envelope, .door-container:hover .fa-door-closed, .user-container:hover .address-not-solid,
+.folder-container .fa-folder-open, .envelope-container .fa-envelope-open, .door-container .fa-door-open, .user-container .address-solid {
+    display: none;
+}
+
+.folder-container:hover .fa-folder-open, .envelope-container:hover .fa-envelope-open, .door-container:hover .fa-door-open, .user-container:hover .address-solid {
+    display: inline;
+}
+
+table {
+    font-size: 0.8em;
+}
+
+tr {
+    line-height: 0.1em;
+}
+
+th{
+    width: 5%;
+}
+
+.table td {
+    border: 1px solid #9B9B9B;
+    width: 10%;
+    padding: 0px;
+    vertical-align: middle !important;
+}
+
+.admin-opmaak {
+    padding-left: 5px !important;
+}
+
+.form-input {
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+}
+
+.form-verklaring {
+    width: 30% !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    padding: 175px 0px 25px 10px;
+}
+
+footer .container {
+    border-top: solid 1px white;
+}
+
+span {
+    padding-top: 50px;
+}
+
+.modal-content {
+    margin: auto;
+}
+
+.modal-dialog {
+    max-width: 100% !important;
+}
+
+.modal-footer {
+    display: grid !important;
+    grid-template-columns: repeat(8, minmax(0,1fr));
+    justify-content: flex-start;
+}
+
+#goedkeuren {
+    grid-column-start: 8;
+}
+
+#afkeuren{
+    grid-column-start: 7;
+}
+
+#afsluiten{
+    grid-column-start: 6;
+}
+
+#afsluiten-tr{
+    grid-column-start: 8;
+}
+
+#submit-formulier{
+    grid-column-start: 8;
+}
+
+.alert-success {
+    display: none;
+}
+
+main{
+    min-height: 80vh;
+}
+
+/* li { pointer-events: none; } */
+
+.list-group-header {
+    pointer-events: none;
+    background: #9D3FF3;
+    color: white;
+}
+
+.list-group-item {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+}
+
+.list-group-item span {
+    padding: 0;
+    width: 25%;
+}
+
+.fa-eye {
+    color: #9B9B9B;
+    font-size: 1.25em;
+}
+
+.fa-eye:hover {
+    color: #9D3FF3;
+}
+
+.transparant {
+    color: #9D3FF3;
+}
+
+.btn-outline-purple {
+    color: #9B9B9B;
+    background-color: transparent;
+    background-image: none;
+    padding: 0;
+}
+
+.btn-outline-purple:hover {
+    color: #9D3FF3;
+}
+
+.zoeken-input {
+    width: 45% !important;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #9D3FF3;
+    border-color: #9D3FF3;
+    width: 60%;
+}
+
+.btn-purple i {
+    font-size: 1em;
+}
+
+.btn-purple:hover {
+    color: #9D3FF3;
+    background-color: #fff;
+    border-color: #9D3FF3;
+}
+
+.fa-info-circle{
+    font-size: 1.5em;
+    color: #9B9B9B;
+    cursor:pointer;
+}
+
+.fa-info-circle:hover {
+    color: #9D3FF3;
+}
+
+.row-admin-sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px;  */
+}
+
+.card-title{
+    font-size: 1em;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 1em;
+}
+
+.select-admin-sidebar{
+    margin: 0px 0px 0px 105% !important;
+}
+
+#text-admin-sidebar {
+    width: 100%;
+    height: 80px;
+}
+
+/* Trainee css */
+
+.welkom{
+    font-size: 1.6em;
+    color: white;
+}
+
+h2{
+    font-size: 1.5em;
+    width: 90%;
+}
+
+.calender{
+    width: 15%;
+}
+
+.h2-uren-invullen{
+    width: 70%;
+}
+
+.decoration{
+    color: #9B9B9B;
+}
+
+.decoration:hover{
+    text-decoration: none;
+    color: #9D3FF3;
+}
+
+#afgelopen-formulieren{
+    margin: 5px 0px;
+}
+
+.nav-tabs a {
+    color: #9D3FF3 !important;
+}
+
+.opdrachtgever {
+    color: black;
+}
+#contact-afbeelding {
+    background-color: #9D3FF3;
+    max-height: 5em;
+}
+
+.flex-row {
+    width: 100%;
+}
+
+/* dit is de styling voor de profielpagina gemaakt door deniece en maurice*/
+
+#profielgroteblok{
+    padding-left: 15%;
+    padding-top: 150px;
+}
+#profielachtergrond{
+    background-color: #EAEAEA;
+}
+
+
+#profielblok{
+    width: 33%;
+    padding: 50px 15px;
+}
+
+
+.profielblokbody{
+    min-height: 250px;
+}
+
+.alert-warning{
+    display: none;
+}
+
+#welkomst-bericht {
+    padding: 0;
+    margin-top: 2rem;
+    background-color: #fff;
+    color: #9D3FF3;
+    transition: 0.1s all;
+    animation-name: popup;
+    animation-duration: 1.5s;
+}
+
+#welkomst-bericht h1 {
+    font-size: 2rem;
+}
+
+@keyframes popup {
+    0%{
+        opacity:0;
+        transform: translateY(-5rem);
+    }
+
+    28%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+#verborgen-medewerker-id {
+    display: none;
+}
+
+.gegevens-header {
+    border-bottom: 1px solid #9B9B9B;
+}
+
+p i {
+    font-size: 1em;
+}
